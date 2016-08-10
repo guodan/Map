@@ -13,6 +13,27 @@
 		E63B24F61D598529003EDB5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E63B24F41D598529003EDB5D /* Main.storyboard */; };
 		E63B24F81D598529003EDB5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E63B24F71D598529003EDB5D /* Assets.xcassets */; };
 		E63B24FB1D598529003EDB5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E63B24F91D598529003EDB5D /* LaunchScreen.storyboard */; };
+		E648AAD61D5AE1910012DC6E /* MAMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E648AAD31D5AE1910012DC6E /* MAMapKit.framework */; };
+		E648AAD71D5AE1910012DC6E /* AMapFoundationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E648AAD41D5AE1910012DC6E /* AMapFoundationKit.framework */; };
+		E648AAD81D5AE1910012DC6E /* AMapSearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E648AAD51D5AE1910012DC6E /* AMapSearchKit.framework */; };
+		E648AADC1D5AE3060012DC6E /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E648AADB1D5AE3060012DC6E /* libc++.tbd */; };
+		E648AADE1D5AE30F0012DC6E /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E648AADD1D5AE30F0012DC6E /* libz.tbd */; };
+		E648AAE01D5AE31C0012DC6E /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E648AADF1D5AE31C0012DC6E /* libstdc++.6.0.9.tbd */; };
+		E648AAE21D5AE3280012DC6E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E648AAE11D5AE3280012DC6E /* AudioToolbox.framework */; };
+		E648AAE41D5AE33C0012DC6E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E648AAE31D5AE33C0012DC6E /* CoreGraphics.framework */; };
+		E648AAE61D5AE3590012DC6E /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E648AAE51D5AE3590012DC6E /* AddressBook.framework */; };
+		E648AAE81D5AE4090012DC6E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E648AAE71D5AE4090012DC6E /* AVFoundation.framework */; };
+		E648AAEA1D5AE5D30012DC6E /* AMapFoundationKit in Frameworks */ = {isa = PBXBuildFile; fileRef = E648AAE91D5AE5D30012DC6E /* AMapFoundationKit */; };
+		E648AAEC1D5AE9C10012DC6E /* MAMapKit in Frameworks */ = {isa = PBXBuildFile; fileRef = E648AAEB1D5AE9C10012DC6E /* MAMapKit */; };
+		E648AAEE1D5AEA2C0012DC6E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E648AAED1D5AEA2C0012DC6E /* SystemConfiguration.framework */; };
+		E648AAF01D5AEA370012DC6E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E648AAEF1D5AEA370012DC6E /* Security.framework */; };
+		E648AAF21D5AEA470012DC6E /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E648AAF11D5AEA470012DC6E /* CoreTelephony.framework */; };
+		E648AAF41D5B084E0012DC6E /* AMap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E648AAF31D5B084E0012DC6E /* AMap.bundle */; };
+		E648AAF61D5B0AA90012DC6E /* school.png in Resources */ = {isa = PBXBuildFile; fileRef = E648AAF51D5B0AA90012DC6E /* school.png */; };
+		E648AAF81D5B0B070012DC6E /* s.png in Resources */ = {isa = PBXBuildFile; fileRef = E648AAF71D5B0B070012DC6E /* s.png */; };
+		E648AAFB1D5B0C210012DC6E /* CustumView.m in Sources */ = {isa = PBXBuildFile; fileRef = E648AAFA1D5B0C210012DC6E /* CustumView.m */; };
+		E648AAFE1D5B0DA50012DC6E /* CustumAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = E648AAFD1D5B0DA50012DC6E /* CustumAnnotationView.m */; };
+		E64D742F1D5B66C70061F02F /* AMapNaviKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E64D742E1D5B66C70061F02F /* AMapNaviKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +47,29 @@
 		E63B24F71D598529003EDB5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E63B24FA1D598529003EDB5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E63B24FC1D598529003EDB5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E648AAD31D5AE1910012DC6E /* MAMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MAMapKit.framework; sourceTree = "<group>"; };
+		E648AAD41D5AE1910012DC6E /* AMapFoundationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapFoundationKit.framework; sourceTree = "<group>"; };
+		E648AAD51D5AE1910012DC6E /* AMapSearchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapSearchKit.framework; sourceTree = "<group>"; };
+		E648AADB1D5AE3060012DC6E /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		E648AADD1D5AE30F0012DC6E /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		E648AADF1D5AE31C0012DC6E /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		E648AAE11D5AE3280012DC6E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		E648AAE31D5AE33C0012DC6E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E648AAE51D5AE3590012DC6E /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		E648AAE71D5AE4090012DC6E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E648AAE91D5AE5D30012DC6E /* AMapFoundationKit */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = AMapFoundationKit; path = MapTest/GDSDK/AMapFoundationKit.framework/AMapFoundationKit; sourceTree = "<group>"; };
+		E648AAEB1D5AE9C10012DC6E /* MAMapKit */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = MAMapKit; path = MapTest/GDSDK/MAMapKit.framework/MAMapKit; sourceTree = "<group>"; };
+		E648AAED1D5AEA2C0012DC6E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E648AAEF1D5AEA370012DC6E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		E648AAF11D5AEA470012DC6E /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		E648AAF31D5B084E0012DC6E /* AMap.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AMap.bundle; path = GDSDK/MAMapKit.framework/AMap.bundle; sourceTree = "<group>"; };
+		E648AAF51D5B0AA90012DC6E /* school.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = school.png; sourceTree = "<group>"; };
+		E648AAF71D5B0B070012DC6E /* s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s.png; sourceTree = "<group>"; };
+		E648AAF91D5B0C210012DC6E /* CustumView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustumView.h; sourceTree = "<group>"; };
+		E648AAFA1D5B0C210012DC6E /* CustumView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustumView.m; sourceTree = "<group>"; };
+		E648AAFC1D5B0DA50012DC6E /* CustumAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustumAnnotationView.h; sourceTree = "<group>"; };
+		E648AAFD1D5B0DA50012DC6E /* CustumAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustumAnnotationView.m; sourceTree = "<group>"; };
+		E64D742E1D5B66C70061F02F /* AMapNaviKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapNaviKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +77,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E648AAF21D5AEA470012DC6E /* CoreTelephony.framework in Frameworks */,
+				E648AAF01D5AEA370012DC6E /* Security.framework in Frameworks */,
+				E648AAEE1D5AEA2C0012DC6E /* SystemConfiguration.framework in Frameworks */,
+				E648AAEC1D5AE9C10012DC6E /* MAMapKit in Frameworks */,
+				E648AAEA1D5AE5D30012DC6E /* AMapFoundationKit in Frameworks */,
+				E648AAE81D5AE4090012DC6E /* AVFoundation.framework in Frameworks */,
+				E64D742F1D5B66C70061F02F /* AMapNaviKit.framework in Frameworks */,
+				E648AAE61D5AE3590012DC6E /* AddressBook.framework in Frameworks */,
+				E648AAE41D5AE33C0012DC6E /* CoreGraphics.framework in Frameworks */,
+				E648AAE21D5AE3280012DC6E /* AudioToolbox.framework in Frameworks */,
+				E648AAE01D5AE31C0012DC6E /* libstdc++.6.0.9.tbd in Frameworks */,
+				E648AADE1D5AE30F0012DC6E /* libz.tbd in Frameworks */,
+				E648AADC1D5AE3060012DC6E /* libc++.tbd in Frameworks */,
+				E648AAD61D5AE1910012DC6E /* MAMapKit.framework in Frameworks */,
+				E648AAD71D5AE1910012DC6E /* AMapFoundationKit.framework in Frameworks */,
+				E648AAD81D5AE1910012DC6E /* AMapSearchKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +102,18 @@
 		E63B24DF1D598529003EDB5D = {
 			isa = PBXGroup;
 			children = (
+				E648AAF11D5AEA470012DC6E /* CoreTelephony.framework */,
+				E648AAEF1D5AEA370012DC6E /* Security.framework */,
+				E648AAED1D5AEA2C0012DC6E /* SystemConfiguration.framework */,
+				E648AAEB1D5AE9C10012DC6E /* MAMapKit */,
+				E648AAE91D5AE5D30012DC6E /* AMapFoundationKit */,
+				E648AAE71D5AE4090012DC6E /* AVFoundation.framework */,
+				E648AAE51D5AE3590012DC6E /* AddressBook.framework */,
+				E648AAE31D5AE33C0012DC6E /* CoreGraphics.framework */,
+				E648AAE11D5AE3280012DC6E /* AudioToolbox.framework */,
+				E648AADF1D5AE31C0012DC6E /* libstdc++.6.0.9.tbd */,
+				E648AADD1D5AE30F0012DC6E /* libz.tbd */,
+				E648AADB1D5AE3060012DC6E /* libc++.tbd */,
 				E63B24EA1D598529003EDB5D /* MapTest */,
 				E63B24E91D598529003EDB5D /* Products */,
 			);
@@ -58,10 +130,16 @@
 		E63B24EA1D598529003EDB5D /* MapTest */ = {
 			isa = PBXGroup;
 			children = (
+				E648AAF31D5B084E0012DC6E /* AMap.bundle */,
+				E648AAD21D5AE0870012DC6E /* GDSDK */,
 				E63B24EE1D598529003EDB5D /* AppDelegate.h */,
 				E63B24EF1D598529003EDB5D /* AppDelegate.m */,
 				E63B24F11D598529003EDB5D /* ViewController.h */,
 				E63B24F21D598529003EDB5D /* ViewController.m */,
+				E648AAF91D5B0C210012DC6E /* CustumView.h */,
+				E648AAFA1D5B0C210012DC6E /* CustumView.m */,
+				E648AAFC1D5B0DA50012DC6E /* CustumAnnotationView.h */,
+				E648AAFD1D5B0DA50012DC6E /* CustumAnnotationView.m */,
 				E63B24F41D598529003EDB5D /* Main.storyboard */,
 				E63B24F71D598529003EDB5D /* Assets.xcassets */,
 				E63B24F91D598529003EDB5D /* LaunchScreen.storyboard */,
@@ -77,6 +155,19 @@
 				E63B24EC1D598529003EDB5D /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E648AAD21D5AE0870012DC6E /* GDSDK */ = {
+			isa = PBXGroup;
+			children = (
+				E648AAF71D5B0B070012DC6E /* s.png */,
+				E648AAF51D5B0AA90012DC6E /* school.png */,
+				E64D742E1D5B66C70061F02F /* AMapNaviKit.framework */,
+				E648AAD31D5AE1910012DC6E /* MAMapKit.framework */,
+				E648AAD41D5AE1910012DC6E /* AMapFoundationKit.framework */,
+				E648AAD51D5AE1910012DC6E /* AMapSearchKit.framework */,
+			);
+			path = GDSDK;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,6 +201,7 @@
 				TargetAttributes = {
 					E63B24E71D598529003EDB5D = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 3BE53B5VE9;
 					};
 				};
 			};
@@ -138,6 +230,9 @@
 			files = (
 				E63B24FB1D598529003EDB5D /* LaunchScreen.storyboard in Resources */,
 				E63B24F81D598529003EDB5D /* Assets.xcassets in Resources */,
+				E648AAF61D5B0AA90012DC6E /* school.png in Resources */,
+				E648AAF81D5B0B070012DC6E /* s.png in Resources */,
+				E648AAF41D5B084E0012DC6E /* AMap.bundle in Resources */,
 				E63B24F61D598529003EDB5D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -149,9 +244,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E648AAFE1D5B0DA50012DC6E /* CustumAnnotationView.m in Sources */,
 				E63B24F31D598529003EDB5D /* ViewController.m in Sources */,
 				E63B24F01D598529003EDB5D /* AppDelegate.m in Sources */,
 				E63B24ED1D598529003EDB5D /* main.m in Sources */,
+				E648AAFB1D5B0C210012DC6E /* CustumView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,10 +360,23 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MapTest/GDSDK",
+				);
 				INFOPLIST_FILE = MapTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MapTest/GDSDK/AMapFoundationKit.framework",
+					"$(PROJECT_DIR)/MapTest/GDSDK/MAMapKit.framework",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.adan.MapTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -274,10 +384,23 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MapTest/GDSDK",
+				);
 				INFOPLIST_FILE = MapTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MapTest/GDSDK/AMapFoundationKit.framework",
+					"$(PROJECT_DIR)/MapTest/GDSDK/MAMapKit.framework",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.adan.MapTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -300,6 +423,7 @@
 				E63B25011D598529003EDB5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
